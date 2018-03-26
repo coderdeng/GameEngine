@@ -1,0 +1,38 @@
+﻿  BaseApplication.cpp
+F:\GameEngine\Source\Framework\Interface\IApplication.hpp(7): error C2504: “IRuntimeModule”: 未定义基类
+F:\GameEngine\Source\Framework\Interface\IApplication.hpp(14): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+f:\gameengine\source\framework\common\BaseApplication.hpp(6): error C2504: “IApplication”: 未定义基类
+f:\gameengine\source\framework\common\BaseApplication.hpp(16): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+F:\GameEngine\Source\Framework\Common\BaseApplication.cpp(3): error C3083: “BaseApplication”:“::”左侧的符号必须是一种类型
+F:\GameEngine\Source\Framework\Common\BaseApplication.cpp(3): error C2039: “Initialize”: 不是“My”的成员
+  f:\gameengine\source\framework\interface\IRuntimeModule.hpp(4): note: 参见“My”的声明
+F:\GameEngine\Source\Framework\Common\BaseApplication.cpp(5): error C2065: “m_bQuit”: 未声明的标识符
+F:\GameEngine\Source\Framework\Common\BaseApplication.cpp(9): error C3083: “BaseApplication”:“::”左侧的符号必须是一种类型
+F:\GameEngine\Source\Framework\Common\BaseApplication.cpp(9): error C2039: “Finalize”: 不是“My”的成员
+  f:\gameengine\source\framework\interface\IRuntimeModule.hpp(4): note: 参见“My”的声明
+F:\GameEngine\Source\Framework\Common\BaseApplication.cpp(14): error C3083: “BaseApplication”:“::”左侧的符号必须是一种类型
+F:\GameEngine\Source\Framework\Common\BaseApplication.cpp(14): error C2039: “Tick”: 不是“My”的成员
+  f:\gameengine\source\framework\interface\IRuntimeModule.hpp(4): note: 参见“My”的声明
+F:\GameEngine\Source\Framework\Common\BaseApplication.cpp(19): error C3083: “BaseApplication”:“::”左侧的符号必须是一种类型
+F:\GameEngine\Source\Framework\Common\BaseApplication.cpp(19): error C2039: “IsQuit”: 不是“My”的成员
+  f:\gameengine\source\framework\interface\IRuntimeModule.hpp(4): note: 参见“My”的声明
+F:\GameEngine\Source\Framework\Common\BaseApplication.cpp(21): error C2065: “m_bQuit”: 未声明的标识符
+  main.cpp
+F:\GameEngine\Source\Framework\Interface\IApplication.hpp(7): error C2504: “IRuntimeModule”: 未定义基类
+F:\GameEngine\Source\Framework\Interface\IApplication.hpp(14): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+F:\GameEngine\Source\Framework\Common\main.cpp(4): error C2871: “MY”: 具有该名称的命名空间不存在
+F:\GameEngine\Source\Framework\Common\main.cpp(7): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+F:\GameEngine\Source\Framework\Common\main.cpp(7): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+F:\GameEngine\Source\Framework\Common\main.cpp(12): error C2065: “g_pApp”: 未声明的标识符
+F:\GameEngine\Source\Framework\Common\main.cpp(12): error C2227: “->Initialize”的左边必须指向类/结构/联合/泛型类型
+  F:\GameEngine\Source\Framework\Common\main.cpp(12): note: 类型是“unknown-type”
+F:\GameEngine\Source\Framework\Common\main.cpp(17): error C2065: “g_pApp”: 未声明的标识符
+F:\GameEngine\Source\Framework\Common\main.cpp(17): error C2227: “->IsQuit”的左边必须指向类/结构/联合/泛型类型
+  F:\GameEngine\Source\Framework\Common\main.cpp(17): note: 类型是“unknown-type”
+F:\GameEngine\Source\Framework\Common\main.cpp(18): error C2065: “g_pApp”: 未声明的标识符
+F:\GameEngine\Source\Framework\Common\main.cpp(18): error C2227: “->Tick”的左边必须指向类/结构/联合/泛型类型
+  F:\GameEngine\Source\Framework\Common\main.cpp(18): note: 类型是“unknown-type”
+F:\GameEngine\Source\Framework\Common\main.cpp(21): error C2065: “g_pApp”: 未声明的标识符
+F:\GameEngine\Source\Framework\Common\main.cpp(21): error C2227: “->Finalize”的左边必须指向类/结构/联合/泛型类型
+  F:\GameEngine\Source\Framework\Common\main.cpp(21): note: 类型是“unknown-type”
+  正在生成代码...

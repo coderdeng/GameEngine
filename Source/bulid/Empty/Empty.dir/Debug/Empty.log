@@ -1,0 +1,12 @@
+﻿  Building Custom Rule F:/GameEngine/Source/Empty/CMakeLists.txt
+  CMake does not need to re-run because F:/GameEngine/Source/bulid/Empty/CMakeFiles/generate.stamp is up-to-date.
+  EmptyApplication.cpp
+F:\GameEngine\Source\Framework\Interface\IApplication.hpp(7): error C2504: “IRuntimeModule”: 未定义基类
+F:\GameEngine\Source\Framework\Interface\IApplication.hpp(14): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+F:\GameEngine\Source\Framework\Common\BaseApplication.hpp(6): error C2504: “IApplication”: 未定义基类
+F:\GameEngine\Source\Framework\Common\BaseApplication.hpp(16): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+F:\GameEngine\Source\Empty\EmptyApplication.cpp(4): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+F:\GameEngine\Source\Empty\EmptyApplication.cpp(4): error C2146: 语法错误: 缺少“;”(在标识符“g_App”的前面)
+F:\GameEngine\Source\Empty\EmptyApplication.cpp(5): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+F:\GameEngine\Source\Empty\EmptyApplication.cpp(5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+F:\GameEngine\Source\Empty\EmptyApplication.cpp(5): error C2065: “g_App”: 未声明的标识符
