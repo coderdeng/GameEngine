@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="F:\GameEngine\Source\bulid\CMakeFiles\416d0a276070004b8fd86d4f7e9b0f3b\generate.stamp.rule">
+    <CustomBuild Include="H:\myGitProject\GameEngine\Source\bulid\CMakeFiles\535589ef11635ba6f3ad9de281106900\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{F762768A-EC15-33A9-8B8F-37079207703F}</UniqueIdentifier>
+      <UniqueIdentifier>{5EE4E891-2C38-3343-9C5C-66E69A1170B1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

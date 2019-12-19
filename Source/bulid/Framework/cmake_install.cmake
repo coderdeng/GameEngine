@@ -1,4 +1,4 @@
-# Install script for directory: F:/GameEngine/Source/Framework
+# Install script for directory: H:/myGitProject/GameEngine/Source/Framework
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("F:/GameEngine/Source/bulid/Framework/Common/cmake_install.cmake")
+  include("H:/myGitProject/GameEngine/Source/bulid/Framework/Common/cmake_install.cmake")
 
 endif()
 

@@ -1,0 +1,4 @@
+init win message proc
+Debug E_INVALIDARG:0  -2147024809
+Debug S_OK:0  0
+game engine debug out put
