@@ -23,33 +23,20 @@
 using namespace DirectX;
 using namespace DirectX::PackedVector;
 
-<<<<<<< HEAD
 const uint32_t SCREEN_WIDTH		=	950;
 const uint32_t SCREEN_HEIGHT	=	480;
-
-IDXGISwapChain			*g_pSwapchain	=	nullptr;
-ID3D11Device			*g_pDev			=	nullptr;
-ID3D11DeviceContext		*g_pDevcon		=	nullptr;
-ID3D11RenderTargetView	*g_pRTView		=	nullptr;
-=======
-const uint32_t SCREEN_WIDTH		=	960;
-const uint32_t SCREEN_HEIGHT		=	480;
 
 IDXGISwapChain			*g_pSwapchain		=	nullptr;
 ID3D11Device			*g_pDev			=	nullptr;
 ID3D11DeviceContext		*g_pDevcon		=	nullptr;
 ID3D11RenderTargetView		*g_pRTView		=	nullptr;
->>>>>>> 更新windows平台代码
+
 ID3D11InputLayout		*g_pLayout		=	nullptr;
 ID3D11VertexShader		*g_pVS			=	nullptr;
 ID3D11PixelShader		*g_pPS			=	nullptr;
 ID3D11Buffer			*g_pVBuffer		=	nullptr;
 
-<<<<<<< HEAD
-std::ofstream g_LogOut("deubg.log");
-=======
 std::ofstream g_LogOut("debug.log");
->>>>>>> 更新windows平台代码
 
 // vertex buffer structure
 struct VERTEX 
@@ -69,10 +56,6 @@ inline void SafeRelease(T **ppInterfaceToRelease)
 }
 
 void CreateRenderTarget()
-<<<<<<< HEAD
-=======
-
->>>>>>> 更新windows平台代码
 {
 	HRESULT hr;
 	ID3D11Texture2D *pBackBuffer;
@@ -260,11 +243,8 @@ void RenderFrame()
 		g_pDevcon->IASetPrimitiveTopology(D3D10_PRIMITIVE_TOPOLOGY_TRIANGLELIST);
 		g_pDevcon->Draw(3, 0);
 	}
-<<<<<<< HEAD
-=======
 
 	g_pSwapchain->Present(0, 0);
->>>>>>> 更新windows平台代码
 }
 
 LRESULT CALLBACK WindowProc(HWND hWnd,
